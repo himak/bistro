@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    color: #555;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    box-shadow: 0 0 5px #aaa;
+}
+
+ol {
+    padding-left: 15px;
+    margin: 0 20px;
+}
+
+ol li {
+    margin: 100px 0;
+}
+
+.logo {
+    text-indent: -9999px;
+    background: url('https://s.aimg.sk/bistrosk/css/img/logo_bistro.svg') center center no-repeat;
+}
+
+.head {
+    text-align: center;
+    color: #555;
+    margin: 40px 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.head small {
+    display: block;
+    margin-bottom: 5px;
+    color: #b11a29;
+}
+
+main, footer {
+    background-color: #f4eddb;
+}
+
+pre {
+    font-family: 'JetBrains Mono', monospace;
+    border: 1px solid grey;
+    padding: 20px;
+    overflow-x: scroll;
+}
+
+pre.new {
+    background-color: #fff;
+}
+
+pre.new strong {
+    color: red;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+footer a {
+    color: #555;
+}
